@@ -14,8 +14,12 @@ export const ui = {
     projects: "Projects",
     services: "Services",
     homepage: "Homepage",
+    tags: "Tags",
+    terms: "Terms",
+    privacy: "Privacy Policy",
+    RSS: "RSS",
     tagline:
-      "At Terracreativa, we turn websites into engines of sales and delight. Combining sleek design, smooth navigation, and clever SEO, we lead your visitors to fall in love with your products. Your success fuels our creativity.",
+      "Our aim is to make your website a key driver for sales and conversions, combining engaging design, easy navigation, and strong SEO. We focus on attracting visitors and leading them effortlessly to purchase, ensuring your products shine. Your success is our mission.",
     "projects.yours": "Your project",
     "projects.see": "See project",
     "hero.title.main": "We create",
@@ -24,7 +28,7 @@ export const ui = {
     "hero.title.3": "designs",
     "hero.title.4": "brands",
     "hero.subtitle":
-      "Terracreativa crafts digital experiences that convert and inspire. Reach out for a free creative consultation.",
+      "Our digital agency specializes in crafting captivating websites that convert and sell. Contact us for a free consultation.",
     "hero.scroll": "scroll down to explore more",
     "websites.title": "Websites",
     "apps.title": "Apps",
@@ -32,53 +36,53 @@ export const ui = {
     "seo.title": "SEO",
     "advertising.title": "Advertising",
     "websites.content":
-      "We design tailor-made websites blending aesthetic flair with technical precision. Fast, responsive, and visually irresistible.",
+      "At Terracreativa Studio, we specialize in crafting bespoke websites tailored to your brand's needs. Our approach combines aesthetic design with technical proficiency, ensuring your site is visually stunning, fast, and responsive across all devices.",
     "apps.content":
-      "Top-tier app development with intuitive, engaging interfaces for iOS, Android, or cross-platform. Experience meets creativity.",
+      "We deliver top-tier app development services, focusing on creating intuitive, efficient, and engaging mobile applications. Whether for iOS, Android, or cross-platform, our apps are designed to enhance user experience and drive business growth.",
     "uiux.content":
-      "Our UI/UX solutions put the user first. Beautiful, easy-to-navigate designs that make digital interactions a joy.",
+      "Our UI/UX design services are centered on creating user-centric interfaces that are both visually appealing and easy to navigate. We prioritize user experience, ensuring every design element aligns with the users' needs and enhances overall interaction with your digital products.",
     "seo.content":
-      "Terracreativa SEO boosts your visibility with smart strategies, driving organic traffic and improving your search engine rankings.",
+      "Terracreativa Studio's SEO services are designed to increase your website's visibility and drive organic traffic. We use a blend of the latest SEO strategies and techniques to improve your search engine rankings, focusing on both on-page and off-page optimization.",
     "advertising.content":
-      "Targeted advertising campaigns designed to maximize ROI. Compelling content, creative strategies, and social media mastery.",
+      "Our advertising services aim to maximize your ROI through targeted and effective ad campaigns. We specialize in creating compelling ad content and strategies that resonate with your audience, utilizing various platforms like Google Ads and social media to enhance your brand's reach and engagement.",
     "privacy.wip": "Work in progress",
     "privacy.wip.content": "This page will be updated soon",
-    "faqs.question1": "How much coffee is needed to code without bugs?",
+    "faqs.question1": "What's your favorite programming language?",
     "faqs.answer1":
-      "Depends on the project size. Usually: one cup per bug you find… then another to forget it.",
-    "faqs.question2": "Any office pets?",
+      "We love TypeScript for its type safety and modern features, but we're also proficient in Python, JavaScript, and Go.",
+    "faqs.question2": "Do you have a coffee machine in the office?",
     "faqs.answer2":
-      "Yes, a cactus named 'Git' keeps an eye on our commits. It doesn’t bite, but sometimes pricks our morale.",
+      "Yes, and it's probably the most important piece of equipment we have! We run on caffeine and creativity.",
     "faqs.question3": "What's your approach to rubber duck debugging?",
     "faqs.answer3":
-      "We have a collection of rubber ducks, each specialized in different languages. Shockingly effective at uncovering hidden bugs!",
+      "We have a collection of rubber ducks, each specialized in different programming languages. They're surprisingly effective at finding bugs!",
     "faqs.question4": "How do you handle merge conflicts?",
     "faqs.answer4":
-      "Patience, coffee, and occasional panic. Mostly, we rely on good Git practices and clear team communication.",
-    "faqs.question5": "Tabs or spaces?",
+      "With patience, coffee, and sometimes a bit of panic. But mostly with good Git practices and clear communication between team members.",
+    "faqs.question5": "What's your stance on tabs vs spaces?",
     "faqs.answer5":
-      "Trick question! We use EditorConfig for consistency, but secretly… we’re team spaces.",
+      "This is a trick question! We use EditorConfig to maintain consistency across the team. But secretly, we're team spaces.",
     "faqs.question6": "How many monitors do your developers use?",
     "faqs.answer6":
-      "The answer is n+1, where n is the current number of monitors. There’s always room for one more!",
-    "faqs.question7": "What’s your debugging strategy?",
+      "The correct answer is n+1, where n is the current number of monitors. There's always room for one more screen!",
+    "faqs.question7": "What's your debugging strategy?",
     "faqs.answer7":
-      "First console.log, then debugging tools, finally stare at the code until it confesses its crimes.",
+      "First we try console.log, then proper debugging tools, and finally stare at the code until it confesses its bugs.",
     "faqs.question8": "How do you celebrate successful deployments?",
     "faqs.answer8":
-      "High-fives, relief, and sometimes pizza. Then we immediately start planning the next deployment.",
-    "faqs.question9": "Favorite IDE theme?",
+      "With a mix of relief, high-fives, and occasionally pizza. Then we immediately start worrying about the next deployment.",
+    "faqs.question9": "What's your preferred IDE theme?",
     "faqs.answer9":
-      "Dark by day, darker by night. Our developers are basically digital vampires.",
-    "faqs.question10": "How do you name variables?",
+      "Dark theme during the day, darker theme at night. Our developers are like vampires - we avoid bright lights.",
+    "faqs.question10": "How do you name your variables?",
     "faqs.answer10":
-      "Strict conventions mostly, but classics like 'finalFinalVersionForReal' occasionally slip in.",
+      "We follow strict naming conventions, but sometimes end up with classics like 'finalFinalVersionForReal' and 'thisWillDefinitelyWork'.",
     "faq.otherquestions": "Other questions?",
     "thanks.subtitle": "Mail sent successfully",
     "thanks.title": "Thank you",
     "thanks.content": "We will get back to you as soon as possible",
     "contact.title": "Contact",
-    "contact.subtitle": "Carrier pigeons welcome, but email is faster!",
+    "contact.subtitle": "Carrier Pigeons Welcome, but Email is Faster!",
     "contact.name": "Name",
     "contact.email": "Email",
     "contact.message": "Message",
@@ -86,7 +90,7 @@ export const ui = {
     "contact.agree": "By sending this, you agree to our",
     "contact.send": "Send",
     "blog.title": "Blog",
-    "blog.subtitle": "Tech, tips, and digital mischief",
+    "blog.subtitle": "Tech, Tips, and Typo's!",
     "blog.gotoproject": "Go to project",
     "footer.newsletter": "Subscribe to",
     "footer.newsletter2": "our newsletter",
@@ -100,8 +104,12 @@ export const ui = {
     projects: "Proyectos",
     services: "Servicios",
     homepage: "Inicio",
+    tags: "Etiquetas",
+    terms: "Términos",
+    privacy: "Política de Privacidad",
+    RSS: "RSS",
     tagline:
-      "En Terracreativa transformamos tu sitio web en una máquina de ventas y creatividad. Combinamos diseño atractivo, navegación fluida y SEO inteligente para que tus visitantes se enamoren de tus productos. Tu éxito es nuestro motor.",
+      "Nuestro objetivo es convertir tu sitio web en un motor clave de ventas y conversiones, combinando diseño atractivo, navegación fácil y SEO potente. Nos enfocamos en atraer visitantes y guiarlos hacia la compra, asegurando que tus productos destaquen. Tu éxito es nuestra misión.",
     "projects.yours": "Tu proyecto",
     "projects.see": "Ver proyecto",
     "hero.title.main": "Creamos",
@@ -110,7 +118,7 @@ export const ui = {
     "hero.title.3": "diseños",
     "hero.title.4": "marcas",
     "hero.subtitle":
-      "Terracreativa diseña experiencias digitales que convierten e inspiran. Contáctanos para una consulta creativa gratuita.",
+      "Nuestra agencia digital se especializa en crear sitios web que convierten y venden. Contáctanos para una consulta gratuita.",
     "hero.scroll": "desplázate hacia abajo para explorar más",
     "websites.title": "Sitios web",
     "apps.title": "Apps",
@@ -118,47 +126,47 @@ export const ui = {
     "seo.title": "SEO",
     "advertising.title": "Publicidad",
     "websites.content":
-      "Creamos sitios web a medida combinando estética y precisión técnica. Rápidos, responsivos y visualmente irresistibles.",
+      "En Terracreativa Studio, nos especializamos en crear sitios web a medida según las necesidades de tu marca. Combinamos diseño estético con competencia técnica para garantizar un sitio visualmente atractivo, rápido y responsivo.",
     "apps.content":
-      "Desarrollo de apps de primer nivel con interfaces intuitivas y atractivas para iOS, Android o multiplataforma. Experiencia y creatividad.",
+      "Ofrecemos servicios de desarrollo de aplicaciones de primer nivel, enfocándonos en apps móviles intuitivas, eficientes y atractivas para iOS, Android o multiplataforma.",
     "uiux.content":
-      "Nuestros servicios de UI/UX ponen al usuario en el centro. Diseños atractivos y fáciles de usar que hacen de la interacción digital un placer.",
+      "Nuestros servicios de UI/UX se centran en crear interfaces centradas en el usuario, atractivas visualmente y fáciles de navegar.",
     "seo.content":
-      "El SEO de Terracreativa aumenta tu visibilidad con estrategias inteligentes, atrayendo tráfico orgánico y mejorando tu posicionamiento.",
+      "Los servicios SEO de Terracreativa Studio aumentan la visibilidad de tu sitio y atraen tráfico orgánico, combinando estrategias de SEO on-page y off-page.",
     "advertising.content":
-      "Campañas publicitarias dirigidas y efectivas que maximizan tu ROI. Contenido creativo y dominio de redes sociales.",
+      "Nuestros servicios de publicidad maximizan tu ROI mediante campañas dirigidas y efectivas, utilizando Google Ads y redes sociales.",
     "privacy.wip": "En progreso",
     "privacy.wip.content": "Esta página se actualizará pronto",
-    "faqs.question1": "¿Cuánto café se necesita para programar sin errores?",
+    "faqs.question1": "¿Cuál es tu lenguaje de programación favorito?",
     "faqs.answer1":
-      "Depende del proyecto. Generalmente: un café por cada bug que encuentres… y otro para olvidarlo.",
-    "faqs.question2": "¿Tienen mascotas en la oficina?",
+      "Nos gusta TypeScript por su seguridad de tipos y características modernas, pero también dominamos PHP, JavaScript y Java.",
+    "faqs.question2": "¿Tienen máquina de café en la oficina?",
     "faqs.answer2":
-      "Sí, un cactus llamado 'Git' vigila nuestros commits. No muerde, pero a veces pincha la moral.",
-    "faqs.question3": "¿Cuál es su enfoque para depuración con pato de goma?",
+      "Sí, y probablemente sea el equipo más importante que tenemos. ¡Funcionamos a base de cafeína y creatividad!",
+    "faqs.question3": "¿Cuál es tu enfoque para la depuración con pato de goma?",
     "faqs.answer3":
-      "Tenemos una colección de patos de goma, cada uno especializado en distintos lenguajes. ¡Sorprendentemente efectivos para encontrar bugs escondidos!",
-    "faqs.question4": "¿Cómo manejan los conflictos de fusión?",
+      "Tenemos una colección de patos de goma, cada uno especializado en diferentes lenguajes. ¡Son sorprendentemente efectivos para encontrar errores!",
+    "faqs.question4": "¿Cómo manejas los conflictos de fusión (merge)?",
     "faqs.answer4":
-      "Con paciencia, café y un poco de pánico ocasional. Pero sobre todo con buenas prácticas de Git y comunicación clara.",
+      "Con paciencia, café y a veces un poco de pánico. Pero principalmente con buenas prácticas de Git y comunicación clara en el equipo.",
     "faqs.question5": "¿Tabs o espacios?",
     "faqs.answer5":
-      "¡Pregunta trampa! Usamos EditorConfig para consistencia, pero en secreto somos team espacios.",
-    "faqs.question6": "¿Cuántos monitores usan sus desarrolladores?",
+      "¡Esta es una pregunta trampa! Usamos EditorConfig para mantener consistencia. Pero en secreto, somos team espacios.",
+    "faqs.question6": "¿Cuántos monitores usan tus desarrolladores?",
     "faqs.answer6":
-      "La respuesta correcta es n+1, donde n es el número actual de monitores. Siempre hay espacio para uno más.",
-    "faqs.question7": "¿Cuál es su estrategia de depuración?",
+      "La respuesta correcta es n+1, donde n es el número actual de monitores. ¡Siempre hay espacio para uno más!",
+    "faqs.question7": "¿Cuál es tu estrategia de depuración?",
     "faqs.answer7":
-      "Primero console.log, luego herramientas de depuración, y finalmente mirar el código hasta que confiese sus errores.",
+      "Primero usamos console.log, luego herramientas de depuración, y finalmente miramos el código hasta que confiese sus errores.",
     "faqs.question8": "¿Cómo celebran los despliegues exitosos?",
     "faqs.answer8":
-      "Con alivio, choques de manos y ocasionalmente pizza. Luego ya pensamos en el próximo despliegue.",
-    "faqs.question9": "¿Cuál es su tema de IDE preferido?",
+      "Con alivio, choques de manos y ocasionalmente pizza. Luego nos preocupamos por el próximo despliegue.",
+    "faqs.question9": "¿Cuál es tu tema de IDE preferido?",
     "faqs.answer9":
-      "Oscuro de día, más oscuro de noche. Nuestros desarrolladores son básicamente vampiros digitales.",
-    "faqs.question10": "¿Cómo nombran sus variables?",
+      "Tema oscuro durante el día, más oscuro en la noche. Nuestros desarrolladores son como vampiros, evitamos luces brillantes.",
+    "faqs.question10": "¿Cómo nombras tus variables?",
     "faqs.answer10":
-      "Convenciones estrictas en general, pero de vez en cuando aparecen clásicos como 'finalFinalVersionForReal'.",
+      "Seguimos convenciones estrictas, pero a veces terminamos con clásicos como 'finalFinalVersionForReal' y 'thisWillDefinitelyWork'.",
     "faq.otherquestions": "¿Otras preguntas?",
     "thanks.subtitle": "Correo enviado con éxito",
     "thanks.title": "Gracias",
@@ -172,7 +180,7 @@ export const ui = {
     "contact.agree": "Al enviar aceptas nuestra",
     "contact.send": "Enviar",
     "blog.title": "Blog",
-    "blog.subtitle": "Tecnología, consejos y travesuras digitales",
+    "blog.subtitle": "Tecnología, consejos y errores tipográficos",
     "blog.gotoproject": "Ir al proyecto",
     "footer.newsletter": "Suscríbete a",
     "footer.newsletter2": "nuestra newsletter",
