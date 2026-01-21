@@ -13,10 +13,10 @@ export default defineConfig({
 			},
 		},
 	},
-	site: "https://mintaka.co",
+	site: "https://terracreativa.net",
 	i18n: {
 		defaultLocale: "en",
-		locales: ["en", "it"],
+		locales: ["en", "es"],
 	},
 	markdown: {
 		drafts: true,
