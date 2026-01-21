@@ -7,7 +7,7 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const translatePath = useTranslatedPath(lang);
 
-// Footer links dinámicos
+// Footer links dynamically translated
 const footerLinks = [
   { path: "/", label: "homepage" },
   { path: "/blog/", label: "blog.title" },
@@ -24,7 +24,7 @@ const footerLinks = [
   <div class="relative grid grid-cols-6 gap-y-20 lg:grid-cols-12 lg:text-xl">
     <div class="col-span-6 col-start-1 grid grid-cols-6 gap-6 lg:col-span-8">
 
-      <!-- Redes sociales -->
+      <!-- Socials -->
       <div class="col-span-2 col-start-4 flex flex-col gap-2 lg:col-span-3">
         <a href="https://twitter.com/" target="_blank">Twitter / X</a>
         <a href="https://www.instagram.com/" target="_blank">Instagram</a>
@@ -32,7 +32,7 @@ const footerLinks = [
         <a href="https://tiktok.com/" target="_blank">TikTok</a>
       </div>
 
-      <!-- Enlaces dinámicos -->
+      <!-- Links -->
       <div class="col-span-3 row-start-1 lg:col-span-2 lg:col-start-4 lg:row-start-auto">
         <div class="flex flex-col gap-2">
           {footerLinks.map((link) => (
@@ -61,7 +61,7 @@ const footerLinks = [
     </div>
   </div>
 
-  <!-- Pie de página -->
+  <!-- Foooter -->
   <div class="relative mt-4 flex w-full items-end justify-between gap-y-4 text-sm lg:text-xl lg:font-normal">
     <div>© {new Date().getFullYear()} TERRACREATIVA</div>
     <button
